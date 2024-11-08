@@ -54,7 +54,7 @@ services:
     tty: true
     volumes:
       - ./data:/var/lib/postgresql/data
-    environmemt:
+    environment:
       - POSRGRES_PASSWORD=12345
       - POSRGRES_USER=postgres
       - POSRGRES_DB=postgres
